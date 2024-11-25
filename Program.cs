@@ -4,7 +4,7 @@ class Program
 {
     public static void Main(string[] args)
     {
-        var john = new Person("John", "Smith");
-        john.Introduce();
+        var game = new GuessingGame(1, 100);
+        game.Run();
     }
 }
